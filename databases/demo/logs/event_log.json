@@ -1,0 +1,14 @@
+[{"changeDescription": "Created database demo", "UserID": "b", "type": "databaseChange", "timestamp": 1721906157496},
+{"changeDescription": "Database created successfully", "UserID": "b", "type": "databaseChange", "timestamp": 1721906157509},
+{"changeDescription": "Switched to database demo", "UserID": "b", "type": "databaseChange", "timestamp": 1721906330847},
+{"changeDescription": "Invalid CREATE TABLE query. Primary key not specified: create table student(id int Primary Key not null, name varchar not null unique)", "UserID": "b", "type": "databaseChange", "timestamp": 1721906334833},
+{"changeDescription": "Invalid CREATE TABLE query. Primary key not specified: create table student(id int Primary Key not null, name varchar not null unique)", "UserID": "b", "type": "databaseChange", "timestamp": 1721906346479},
+{"changeDescription": "Invalid CREATE TABLE query. Primary key not specified: create table student(id int Primary Key not null, name varchar not null unique)", "UserID": "b", "type": "databaseChange", "timestamp": 1721906377198},
+{"changeDescription": "Invalid CREATE TABLE query. Primary key not specified: create table student(id int primay key, name varchar not null unique)", "UserID": "b", "type": "databaseChange", "timestamp": 1721906414680},
+{"changeDescription": "Table student created successfully with columns: id int (PK)~~name varchar (NN) (U)", "UserID": "b", "type": "databaseChange", "timestamp": 1721906478643},
+{"changeDescription": "Switched to database demo", "UserID": "b", "type": "databaseChange", "timestamp": 1721908194086},
+{"changeDescription": "Invalid CREATE TABLE query. Primary key not specified: create table new(id int primayr key,name varchar)", "UserID": "b", "type": "databaseChange", "timestamp": 1721908250587},
+{"changeDescription": "Table new created successfully with columns: id int (PK) REFERENCES student(id) RELATION(enroll)~~name varchar", "UserID": "b", "type": "databaseChange", "timestamp": 1721908401929},
+{"changeDescription": "Switched to database demo", "UserID": "b", "type": "databaseChange", "timestamp": 1721909053862},
+{"changeDescription": "Invalid CREATE TABLE query. Primary key not specified: create table student(id int, name varchar)", "UserID": "b", "type": "databaseChange", "timestamp": 1721909168407}
+]

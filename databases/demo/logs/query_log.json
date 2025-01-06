@@ -1,0 +1,13 @@
+[{"query": "create database demo", "userID": "b", "timestamp": 1721906157468},
+{"query": "use demo", "userID": "b", "timestamp": 1721906330847},
+{"query": "create table student(id int Primary Key not null, name varchar not null unique)", "userID": "b", "timestamp": 1721906334833},
+{"query": "create table student(id int Primary Key not null, name varchar not null unique)", "userID": "b", "timestamp": 1721906346479},
+{"query": "create table student(id int Primary Key not null, name varchar not null unique)", "userID": "b", "timestamp": 1721906377183},
+{"query": "create table student(id int primay key, name varchar not null unique)", "userID": "b", "timestamp": 1721906414680},
+{"query": "CREATE TABLE student (id int (PK)~~name varchar (NN) (U))", "userID": "b", "timestamp": 1721906478628},
+{"query": "use demo", "userID": "b", "timestamp": 1721908194079},
+{"query": "create table new(id int primayr key,name varchar)", "userID": "b", "timestamp": 1721908250587},
+{"query": "CREATE TABLE new (id int (PK) REFERENCES student(id) RELATION(enroll)~~name varchar)", "userID": "b", "timestamp": 1721908401914},
+{"query": "use demo", "userID": "b", "timestamp": 1721909053845},
+{"query": "create table student(id int, name varchar)", "userID": "b", "timestamp": 1721909168391}
+]

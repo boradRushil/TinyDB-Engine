@@ -1,0 +1,13 @@
+[{"executionTime": 41, "totalRecords": 0, "numberOfTables": 0, "query": "create database demo", "timestamp": 1721906157509},
+{"executionTime": 0, "totalRecords": 0, "numberOfTables": 1, "query": "use demo", "timestamp": 1721906330847},
+{"executionTime": 0, "totalRecords": 0, "numberOfTables": 0, "query": "create table student(id int Primary Key not null, name varchar not null unique)", "timestamp": 1721906334833},
+{"executionTime": 0, "totalRecords": 0, "numberOfTables": 0, "query": "create table student(id int Primary Key not null, name varchar not null unique)", "timestamp": 1721906346479},
+{"executionTime": 13, "totalRecords": 0, "numberOfTables": 0, "query": "create table student(id int Primary Key not null, name varchar not null unique)", "timestamp": 1721906377196},
+{"executionTime": 0, "totalRecords": 0, "numberOfTables": 0, "query": "create table student(id int primay key, name varchar not null unique)", "timestamp": 1721906414680},
+{"executionTime": 0, "totalRecords": 0, "numberOfTables": 1, "query": "CREATE TABLE student (id int (PK)~~name varchar (NN) (U))", "timestamp": 1721906478628},
+{"executionTime": 23, "totalRecords": 0, "numberOfTables": 2, "query": "use demo", "timestamp": 1721908194102},
+{"executionTime": 0, "totalRecords": 0, "numberOfTables": 1, "query": "create table new(id int primayr key,name varchar)", "timestamp": 1721908250587},
+{"executionTime": 0, "totalRecords": 0, "numberOfTables": 2, "query": "CREATE TABLE new (id int (PK) REFERENCES student(id) RELATION(enroll)~~name varchar)", "timestamp": 1721908401914},
+{"executionTime": 17, "totalRecords": 0, "numberOfTables": 3, "query": "use demo", "timestamp": 1721909053877},
+{"executionTime": -16, "totalRecords": 0, "numberOfTables": 2, "query": "create table student(id int, name varchar)", "timestamp": 1721909168407}
+]

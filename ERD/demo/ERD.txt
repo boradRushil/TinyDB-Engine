@@ -1,0 +1,14 @@
+ERD
+Database: demo
+
+Tables:
+- new
+  - name
+  - id
+
+- student
+  - name
+  - id
+
+Relationships:
+- new.id -> student.id (One to One) RELATION(enroll)
