@@ -93,10 +93,6 @@ src/
 - Secure session management
 - Protected data access
 
-## Team Members
-- [Team Member 1]
-- [Team Member 2]
-- [Team Member 3]
 
 ## Development Timeline
 - Sprint 1: [Completed Modules]
